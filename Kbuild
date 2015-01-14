@@ -61,4 +61,4 @@ $(MODULE_NAME)-y += core/rtw_efuse.o
 $(MODULE_NAME)-y += $(_HAL_INTFS_FILES)
 
 $(MODULE_NAME)-y += $(_OS_INTFS_FILES)
-obj-$(CONFIG_RTL8192DU)	:= $(MODULE_NAME).o
+obj-m := 8192du.o
